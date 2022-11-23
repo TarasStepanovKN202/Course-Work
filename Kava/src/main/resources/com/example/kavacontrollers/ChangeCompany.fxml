@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: rgb(139, 126, 116);" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kavacontrollers.ChangeCompanyController">
+    <children>
+        <AnchorPane layoutY="59.0" prefHeight="544.0" prefWidth="900.0" style="-fx-background-color: rgb(101, 100, 124);">
+         <children>
+            <TextField fx:id="secidline" layoutX="48.0" layoutY="87.0" prefHeight="52.0" prefWidth="290.0" promptText="...">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <Label layoutX="48.0" layoutY="47.0" prefHeight="26.0" prefWidth="150.0" text="INPUT ID" textFill="#f1d3b3">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <TextField fx:id="secnewcompanyline" layoutX="48.0" layoutY="245.0" prefHeight="52.0" prefWidth="290.0" promptText="...">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <Label layoutX="48.0" layoutY="205.0" prefHeight="40.0" prefWidth="296.0" text="INPUT NEW COMPANY" textFill="#f1d3b3">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <Button fx:id="secdonebutton" layoutX="48.0" layoutY="363.0" mnemonicParsing="false" style="-fx-background-color: rgb(139, 126, 116);" text="DONE" textFill="#f1d3b3">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+         </children>
+        </AnchorPane>
+        <Label layoutX="86.0" layoutY="-6.0" prefHeight="75.0" prefWidth="727.0" text="CHANGE COMPANY IMPORTER" textFill="#f1d3b3">
+            <font>
+                <Font name="Monospaced Regular" size="52.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
